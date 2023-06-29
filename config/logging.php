@@ -59,6 +59,31 @@ return [
             'level' => 'critical',
         ],
 
+        'signin' => [
+            'driver' => 'single',
+            'path' => storage_path('logs/'.date('d.m.Y').'/signin.log'),
+            'level' => 'critical',
+        ],
+
+        'navbar' => [
+            'driver' => 'single',
+            'path' => storage_path('logs/'.date('d.m.Y').'/navbar.log'),
+            'level' => 'critical',
+        ],
+
+        'mainPage' => [
+            'driver' => 'single',
+            'path' => storage_path('logs/'.date('d.m.Y').'/mainPage.log'),
+            'level' => 'critical',
+        ],
+
+
+        'productAdd' => [
+            'driver' => 'single',
+            'path' => storage_path('logs/'.date('d.m.Y').'/productAdd.log'),
+            'level' => 'critical',
+        ],
+
         'stack' => [
             'driver' => 'stack',
             'channels' => ['single'],
