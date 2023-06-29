@@ -21,7 +21,7 @@ class ListBaskets extends Component {
             $baskets[] = $basket;
         }
 
-        return $baskets;
+        return $baskets ?? [];
 
     }
 
