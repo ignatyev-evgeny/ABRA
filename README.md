@@ -1,11 +1,8 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fforge.laravel.com%2Fsite-badges%2Faa726eb7-f1de-4703-9e5d-19cd899b574b%3Fdate%3D1&style=for-the-badge"></a>
 </p>
+
+**Demo**: http://abra.ignatyev.pro
 
 ## ABRA - Test task
 
@@ -41,13 +38,13 @@ page).
 
 ### More about pages
 
-- **Registration** _[pic. #1]_ - opportunity to register. Required fields: Username and Email.
-- **Authorization** _[pic. #2]_ - the ability to authenticate the user in the account
+- **Registration** - opportunity to register. Required fields: Username and Email.
+- **Authorization** - the ability to authenticate the user in the account
 - **Admin area**
-    - **List baskets** _[pic. #3]_ - table for viewing the list of user baskets, with the ability to delete.
-    - **List products** _[pic. #4]_ - a table for viewing existing products, with the ability to delete a product and
+    - **List baskets** - table for viewing the list of user baskets, with the ability to delete.
+    - **List products** - a table for viewing existing products, with the ability to delete a product and
       create a new product.
 - **Member area**
-    - **Main page** _[pic. #5]_ - main page, with a list of products and the ability to add a product to the cart. The
+    - **Main page** - main page, with a list of products and the ability to add a product to the cart. The
       item counter in the navbar is updated dynamically.
-    - **Basket page** _[pic. #6]_ - page for viewing the list of goods added to the cart.
+    - **Basket page** - page for viewing the list of goods added to the cart.
