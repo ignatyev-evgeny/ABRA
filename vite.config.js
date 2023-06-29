@@ -8,7 +8,6 @@ export default defineConfig({
                 'resources/css/app.css',
                 'resources/css/signin.css',
                 'resources/css/signup.css',
-                'resources/css/cabinet/products.css',
                 'resources/js/app.js',
                 'vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js',
             ],
