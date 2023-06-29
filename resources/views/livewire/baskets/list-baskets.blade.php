@@ -39,7 +39,7 @@
                         <td class="text-center align-middle">
                             {{ $totalPrice }} USD
                         </td>
-                        <td class="text-center">
+                        <td class="text-center align-middle">
                             <button wire:click="delete({{$basket['id']}})" class="btn btn-danger" type="button">{{ __('Delete') }}</button>
                         </td>
                     </tr>
